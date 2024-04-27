@@ -206,7 +206,7 @@ input.email, input.text.w3lpass {
 }
 
 input[type="submit"] {
-  font-size: .9em;
+  font-size:.9em;
   color: #fff;
   background: #76b852;
   outline: none;
@@ -214,9 +214,12 @@ input[type="submit"] {
   cursor: pointer;
   padding: 0.9em;
   -webkit-appearance: none;
+  appearance: none;
   width: 100%;
   margin: 2em 0;
   letter-spacing: 4px;
+  -moz-appearance: none;
+  -ms-appearance: none;
 }
 
 input[type="submit"]:hover {
